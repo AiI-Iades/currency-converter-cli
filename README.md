@@ -1,5 +1,9 @@
 # Currency Converter CLI
-Convert currencies between USD, EUR, GBP, and JPY via command line.
 
-Usage: `currency-converter <from> <to> <amount>`
-Example: `currency-converter USD EUR 100`
+Convert between USD, EUR, GBP, JPY, and CAD.
+
+Usage: `currency-convert <amount> <from-currency> [<to-currency>]`
+
+Examples:
+`currency-convert 100 USD to EUR`
+`currency-convert 50 GBP`
